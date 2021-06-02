@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+    <name>file_name_manager</name>
+    <author>e.lisin</author>
+    <creationDate>03.03.2017</creationDate>
+    <copyright>Copyright (C) </copyright>
+    <license></license>
+    <authorEmail>httpf00x@gmail.com</authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.0</version>
+    <description>Переименовывает загружаемые файлы. Подствляет дату. Транслитирует кирилицу. Пробелы заменяет на '_'</description>
+        
+    <files>
+        <filename plugin="file_name_manager">file_name_manager.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+
+        </fields>
+            
+              
+    </config>
+        
+</extension>
